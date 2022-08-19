@@ -30,6 +30,18 @@ public class Main {
         double differenceWeight = weightBoxer2 - weightBoxer1;
         System.out.println("Разница в весе боксеров " + differenceWeight + " кг");
 
+        //Задание 3
+
+        int bananQuantity = 5;
+        int bananWeight = bananQuantity * 80;
+        int milkQuantity = 200;
+        int milkWeight = milkQuantity * 105;
+        int icecreamQuantity = 2;
+        int icecreamWeight = icecreamQuantity * 100;
+        int eggsQuantity = 4;
+        int eggsWeight = eggsQuantity * 70;
+        double breakfastWeight = (bananWeight + milkWeight + icecreamWeight + eggsWeight)/1000;
+        System.out.println("Вес спортивного завтрака " + breakfastWeight + " кг");
 
 
     }
