@@ -8,7 +8,7 @@ public class Main {
         byte varByte = 10;
         short varShort = 11;
         int varInt = 12;
-        long varLong = 100_000_000;
+        long varLong = 100_000_000L;
 
         // тип переменной с плавающей точкой
         float varFloat = 1.56f;
@@ -43,6 +43,18 @@ public class Main {
         double breakfastWeight = (bananWeight + milkWeight + icecreamWeight + eggsWeight)/1000;
         System.out.println("Вес спортивного завтрака " + breakfastWeight + " кг");
 
+        //Задание 4
 
+        int weight = 7; // в килограммах
+        int minWeightForDay = 250; //в граммах
+        int maxWeightForDay = 500; //в граммах
+
+        double quantityDay = 7*1000/minWeightForDay; //количество дней при похудении на 250 гр в день
+        System.out.println("При похудении на 250 гр в день потребуется " + quantityDay + " дней");
+        quantityDay = 7*1000/maxWeightForDay; //количество дней при похудении на 500 гр в день
+        System.out.println("При похудении на 500 гр в день потребуется " + quantityDay + " дней");
+        double averageAmountDay = (minWeightForDay + maxWeightForDay)/2;
+        quantityDay = 7*1000/averageAmountDay; //количество дней при похудении на 375 гр в день
+        System.out.println("При похудении на "+ averageAmountDay + " гр в день потребуется " + quantityDay + " дней");
     }
 }
