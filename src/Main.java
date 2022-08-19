@@ -56,5 +56,21 @@ public class Main {
         double averageAmountDay = (minWeightForDay + maxWeightForDay)/2;
         quantityDay = 7*1000/averageAmountDay; //количество дней при похудении на 375 гр в день
         System.out.println("При похудении на "+ averageAmountDay + " гр в день потребуется " + quantityDay + " дней");
+
+        //Задание 5
+
+        int zarplataMasha = 67760;
+        int zarplataDenis = 83690;
+        int zarplataKristina = 76230;
+
+        double newZarplataMasha = zarplataMasha + zarplataMasha * 0.1;
+        double newZarplataDenis = zarplataDenis + zarplataDenis * 0.1;
+        double newZarplataKristina = zarplataKristina + zarplataKristina * 0.1;
+        System.out.println("Маша теперь получает " + newZarplataMasha + " рублей. " + "Годовой доход вырос на " +
+                12*(newZarplataMasha - zarplataMasha) + " рублей");
+        System.out.println("Денис теперь получает " + newZarplataDenis + " рублей. " + "Годовой доход вырос на " +
+                12*(newZarplataDenis - zarplataDenis) + " рублей");
+        System.out.println("Кристина теперь получает " + newZarplataKristina + " рублей. " + "Годовой доход вырос на " +
+                12*(newZarplataKristina - zarplataKristina) + " рублей");
     }
 }
