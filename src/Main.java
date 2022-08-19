@@ -1,5 +1,9 @@
+import java.io.Console;
+
 public class Main {
     public static void main(String[] args) {
+
+        //Задание 1
         // целочисленный тип переменной
         byte varByte = 10;
         short varShort = 11;
@@ -16,6 +20,15 @@ public class Main {
         //Логическая переменная
 
         boolean varBoolean = true;
+
+        //Задание 2
+
+        double weightBoxer1 = 78.2;
+        double weightBoxer2 = 82.7;
+        double totalWeight = weightBoxer2 + weightBoxer1;
+        System.out.println("Общий вес боксеров " + totalWeight + " кг");
+        double differenceWeight = weightBoxer2 - weightBoxer1;
+        System.out.println("Разница в весе боксеров " + differenceWeight + " кг");
 
 
 
